@@ -1,0 +1,106 @@
+/* Write your CSS here */
+@media all and (min-width: 576px) {
+    .container{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: 90%;
+    }
+  .imgBg {
+    height: 100%;
+    width: 100%;
+    background-size: auto;
+  }
+}
+.timerpara{
+    color: #1e293b;
+}
+.heading{
+    padding-top:20px ;
+}
+/* .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+} */
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  margin: 0;
+  color: #1e293b;
+}
+button {
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+.bg {
+  font-family: 'Roboto';
+  height: 100vh;
+  padding-left: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-image: linear-gradient(to right, #ffffff 20%, #cffcf1 100%);
+}
+.increment {
+  font-size: 40px;
+}
+.timerValue {
+  background: linear-gradient(to right, #41eec3, #00d9f5);
+  width: 80px;
+  border-radius: 20px;
+  color: #ffffff;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+  align-items: center;
+}
+.timerContainer {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+.functionalContainer {
+  display: flex;
+}
+.timerImg {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.imgBg {
+  height: 100%;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  width: 100%;
+  background-position: center;
+}
+.functionElements {
+  display: flex;
+  align-items: center;
+  
+}
+img {
+  height: 40px;
+}
